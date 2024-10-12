@@ -1,24 +1,17 @@
 import './App.css'
 import React from 'react'
-import Button from './Components/common/Button'
-import SectionTitle from './components/common/SectionTitle'
-import GradientText from './components/common/GradientText'
+import Navbar from './components/shared/Navbar'
+import Footer from './components/shared/Footer'
 
 const App = () => {
   return (
-    <>
-      
-      <Button>
-        primary Button
-      </Button>
+    <main className='bg-sky-200'>
+     <Navbar/>
+    
 
-      <Button className="bg-white text-black">
-        secondary Button
-      </Button>
+     <Footer/>
 
-     <SectionTitle gradient='solution'>problem &</SectionTitle>
-
-      </>
+      </main>
   )
 }
 
