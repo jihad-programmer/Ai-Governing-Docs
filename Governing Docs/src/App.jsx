@@ -5,9 +5,10 @@ import Footer from './components/shared/Footer'
 
 const App = () => {
   return (
-    <main className='bg-sky-200'>
+    <main>
      <Navbar/>
     
+    <div className='min-h-[70vh]'></div>
 
      <Footer/>
 

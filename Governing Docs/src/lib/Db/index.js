@@ -20,3 +20,22 @@ export const navItems = [
     link: "#"
   },
   ]
+
+ export const SocialIcon = [
+    {
+      img: "/fb.png.png",
+      url: "https://www.facebook.com",
+    },
+    {
+      img: "insta.png.png",
+      url: "https://www.instagram.com",
+    },
+    {
+      img: "/linkedin.png.png",
+      url: "https://www.bd.linkedin.com",
+    },
+    {
+      img: "/twittter.png.png",
+      url: "https://www.x.com",
+    },
+  ]
