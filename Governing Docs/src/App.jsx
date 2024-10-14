@@ -2,13 +2,13 @@ import './App.css'
 import React from 'react'
 import Navbar from './components/shared/Navbar'
 import Footer from './components/shared/Footer'
-
+import Hero from './components/Home/Hero'
 const App = () => {
   return (
-    <main>
+    <main className='font-nunito-sans bg-[url(/hero-bg.svg)] min-h-svh bg-no-repeat'>
      <Navbar/>
     
-    <div className='min-h-[70vh]'></div>
+    <Hero/>
 
      <Footer/>
 
