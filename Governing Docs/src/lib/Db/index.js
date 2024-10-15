@@ -67,3 +67,39 @@ export const ProblemSolutionsData = [
   },
   
 ]
+
+export const ReviewsData = [
+  {
+    name: "David",
+    image: 'david.png',
+    type: 'Happy Client',
+    review: {
+      stars: 4,
+      title: "Highly Recommend!",
+      details: "The service was user-friendly and met all my expectations."
+    }
+
+  },
+  {
+    name: "John Smith",
+    image: 'john-smith.png',
+    type: 'Happy Client',
+    review: {
+      stars: 5,
+      title: "It Was A Amazing Experience!",
+      details: "The AI features saved us countless hours and ensured our compliance was spot on."
+    }
+
+  },
+  {
+    name: "Ronald Richards",
+    image: 'ronald-richards.png',
+    type: 'Happy Client',
+    review: {
+      stars: 3,
+      title: "It was Good",
+      details: "The service was user-friendly and met all my expectations."
+    }
+
+  },
+]
